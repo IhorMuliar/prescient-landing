@@ -133,7 +133,7 @@ export const FollowPointer = ({
         </svg>
         <motion.div
           style={{
-            backgroundColor: "#e78a53", // Fixed orange color
+            backgroundColor: "#5865F2", // Fixed orange color
           }}
           initial={{
             scale: 0.5,

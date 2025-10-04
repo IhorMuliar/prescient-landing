@@ -21,14 +21,14 @@ export default function Features() {
   const [isFeature4Hovering, setIsFeature4Hovering] = useState(false)
   const [inputValue, setInputValue] = useState("")
 
-  const [baseColor, setBaseColor] = useState<[number, number, number]>([0.906, 0.541, 0.325]) // #e78a53 in RGB normalized
-  const [glowColor, setGlowColor] = useState<[number, number, number]>([0.906, 0.541, 0.325]) // #e78a53 in RGB normalized
+  const [baseColor, setBaseColor] = useState<[number, number, number]>([0.345, 0.396, 0.949]) // #5865F2 in RGB normalized
+  const [glowColor, setGlowColor] = useState<[number, number, number]>([0.345, 0.396, 0.949]) // #5865F2 in RGB normalized
 
   const [dark, setDark] = useState<number>(theme === "dark" ? 1 : 0)
 
   useEffect(() => {
-    setBaseColor([0.906, 0.541, 0.325]) // #e78a53
-    setGlowColor([0.906, 0.541, 0.325]) // #e78a53
+    setBaseColor([0.345, 0.396, 0.949]) // #5865F2
+    setGlowColor([0.345, 0.396, 0.949]) // #5865F2
     setDark(theme === "dark" ? 1 : 0)
   }, [theme])
 
@@ -79,8 +79,8 @@ export default function Features() {
                 transition={{ duration: 0.5, delay: 0.5 }}
                 whileHover={{
                   scale: 1.02,
-                  borderColor: "rgba(231, 138, 83, 0.6)",
-                  boxShadow: "0 0 30px rgba(231, 138, 83, 0.2)",
+                  borderColor: "rgba(88, 101, 242, 0.6)",
+                  boxShadow: "0 0 30px rgba(88, 101, 242, 0.2)",
                 }}
                 style={{ transition: "all 0s ease-in-out" }}
               >
@@ -267,8 +267,8 @@ export default function Features() {
                 transition={{ duration: 0.5, delay: 0.5 }}
                 whileHover={{
                   scale: 1.02,
-                  borderColor: "rgba(231, 138, 83, 0.6)",
-                  boxShadow: "0 0 30px rgba(231, 138, 83, 0.2)",
+                  borderColor: "rgba(88, 101, 242, 0.6)",
+                  boxShadow: "0 0 30px rgba(88, 101, 242, 0.2)",
                 }}
                 style={{ transition: "all 0s ease-in-out" }}
               >
@@ -289,7 +289,7 @@ export default function Features() {
                         scrambleSpeed={70}
                         maxIterations={20}
                         useOriginalCharsOnly={false}
-                        className="cursor-pointer bg-gradient-to-t from-[#e78a53] to-[#e78a53] bg-clip-text text-transparent"
+                        className="cursor-pointer bg-gradient-to-t from-[#5865F2] to-[#5865F2] bg-clip-text text-transparent"
                         isHovering={isHovering}
                         setIsHovering={setIsHovering}
                         characters="abcdefghijklmnopqrstuvwxyz!@#$%^&*()_+-=[]{}|;':\,./<>?"
@@ -324,8 +324,8 @@ export default function Features() {
                 transition={{ duration: 0.5, delay: 1.0 }}
                 whileHover={{
                   scale: 1.02,
-                  borderColor: "rgba(231, 138, 83, 0.5)",
-                  boxShadow: "0 0 30px rgba(231, 138, 83, 0.2)",
+                  borderColor: "rgba(88, 101, 242, 0.6)",
+                  boxShadow: "0 0 30px rgba(88, 101, 242, 0.2)",
                 }}
                 style={{ transition: "all 0s ease-in-out" }}
               >
@@ -367,7 +367,7 @@ export default function Features() {
                               <path d="m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l8.57-8.57A4 4 0 1 1 18 8.84l-8.59 8.57a2 2 0 0 1-2.83-2.83l8.49-8.48"></path>
                             </svg>
                           </button>
-                          <button className="flex items-center gap-2 px-4 py-2 rounded-full bg-[#e78a53] hover:bg-[#e78a53]/90 transition-colors text-white font-medium">
+                          <button className="flex items-center gap-2 px-4 py-2 rounded-full bg-[#5865F2] hover:bg-[#5865F2]/90 transition-colors text-white font-medium">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width="16"
@@ -420,8 +420,8 @@ export default function Features() {
                 whileHover={{
                   rotateY: 5,
                   rotateX: 2,
-                  boxShadow: "0 20px 40px rgba(231, 138, 83, 0.3)",
-                  borderColor: "rgba(231, 138, 83, 0.6)",
+                  borderColor: "rgba(88, 101, 242, 0.6)",
+                  boxShadow: "0 0 30px rgba(88, 101, 242, 0.2)",
                 }}
                 style={{ transition: "all 0s ease-in-out" }}
               >

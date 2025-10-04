@@ -68,7 +68,7 @@ export function PricingSection() {
             transition={{ duration: 0.5 }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm mb-6"
           >
-            <Sparkles className="w-4 h-4 text-[#e78a53]" />
+            <Sparkles className="w-4 h-4 text-[#5865F2]" />
             <span className="text-sm font-medium text-white/80">Pricing</span>
           </motion.div>
 
@@ -91,7 +91,7 @@ export function PricingSection() {
             <button
               onClick={() => setIsAnnual(false)}
               className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
-                !isAnnual ? "bg-[#e78a53] text-white shadow-lg" : "text-white/60 hover:text-white/80"
+                !isAnnual ? "bg-[#5865F2] text-white shadow-lg" : "text-white/60 hover:text-white/80"
               }`}
             >
               Monthly
@@ -99,7 +99,7 @@ export function PricingSection() {
             <button
               onClick={() => setIsAnnual(true)}
               className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-200 relative ${
-                isAnnual ? "bg-[#e78a53] text-white shadow-lg" : "text-white/60 hover:text-white/80"
+                isAnnual ? "bg-[#5865F2] text-white shadow-lg" : "text-white/60 hover:text-white/80"
               }`}
             >
               Annual
@@ -122,13 +122,13 @@ export function PricingSection() {
               whileHover={{ y: -5 }}
               className={`relative rounded-2xl p-8 backdrop-blur-sm border transition-all duration-300 ${
                 plan.popular
-                  ? "bg-gradient-to-b from-[#e78a53]/10 to-transparent border-[#e78a53]/30 shadow-lg shadow-[#e78a53]/10"
+                  ? "bg-gradient-to-b from-[#5865F2]/10 to-transparent border-[#5865F2]/30 shadow-lg shadow-[#5865F2]/10"
                   : "bg-white/5 border-white/10 hover:border-white/20"
               }`}
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <div className="bg-gradient-to-r from-[#e78a53] to-[#e78a53]/80 text-white text-sm font-medium px-4 py-2 rounded-full">
+                  <div className="bg-gradient-to-r from-[#5865F2] to-[#5865F2]/80 text-white text-sm font-medium px-4 py-2 rounded-full">
                     Most Popular
                   </div>
                 </div>
@@ -154,7 +154,7 @@ export function PricingSection() {
               <ul className="space-y-4 mb-8">
                 {plan.features.map((feature, featureIndex) => (
                   <li key={featureIndex} className="flex items-center gap-3">
-                    <Check className="w-5 h-5 text-[#e78a53] flex-shrink-0" />
+                    <Check className="w-5 h-5 text-[#5865F2] flex-shrink-0" />
                     <span className="text-white/80 text-sm">{feature}</span>
                   </li>
                 ))}
@@ -165,7 +165,7 @@ export function PricingSection() {
                 whileTap={{ scale: 0.98 }}
                 className={`w-full py-3 px-6 rounded-lg font-medium transition-all duration-200 ${
                   plan.popular
-                    ? "bg-gradient-to-r from-[#e78a53] to-[#e78a53]/80 text-white shadow-lg shadow-[#e78a53]/25 hover:shadow-[#e78a53]/40"
+                    ? "bg-gradient-to-r from-[#5865F2] to-[#5865F2]/80 text-white shadow-lg shadow-[#5865F2]/25 hover:shadow-[#5865F2]/40"
                     : "bg-white/10 text-white border border-white/20 hover:bg-white/20"
                 }`}
               >
@@ -187,7 +187,7 @@ export function PricingSection() {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="text-[#e78a53] hover:text-[#e78a53]/80 font-medium transition-colors"
+            className="text-[#5865F2] hover:text-[#5865F2]/80 font-medium transition-colors"
           >
             Contact our sales team →
           </motion.button>
