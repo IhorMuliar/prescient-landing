@@ -72,7 +72,7 @@ export function StickyFooter() {
                   onMouseEnter={(e) => ((e.target as HTMLElement).style.color = "rgba(18, 17, 19, 0.8)")}
                   onMouseLeave={(e) => ((e.target as HTMLElement).style.color = "#121113")}
                 >
-                  Components
+                  Live Markets
                 </li>
               </ul>
               <ul className="space-y-2">
