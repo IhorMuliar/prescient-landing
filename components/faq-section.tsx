@@ -46,19 +46,6 @@ export function FAQSection() {
       <div className="bg-primary/20 absolute top-1/2 -left-20 z-[-1] h-64 w-64 rounded-full opacity-80 blur-3xl"></div>
 
       <div className="z-10 container mx-auto px-4">
-        <motion.div
-          className="flex justify-center"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-        >
-          <div className="border-primary/40 text-primary inline-flex items-center gap-2 rounded-full border px-3 py-1 uppercase">
-            <span>✶</span>
-            <span className="text-sm">Faqs</span>
-          </div>
-        </motion.div>
-
         <motion.h2
           className="mx-auto mt-6 max-w-xl text-center text-4xl font-medium md:text-[54px] md:leading-[60px]"
           initial={{ opacity: 0, y: 20 }}

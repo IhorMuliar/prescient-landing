@@ -61,8 +61,7 @@ export default function Features() {
         <FollowerPointerCard
           title={
             <div className="flex items-center gap-2">
-              <span>✨</span>
-              <span>Interactive Features</span>
+              <span>Prescient</span>
             </div>
           }
         >
