@@ -82,7 +82,7 @@ export function StickyFooter() {
                   onMouseEnter={(e) => ((e.target as HTMLElement).style.color = "rgba(18, 17, 19, 0.8)")}
                   onMouseLeave={(e) => ((e.target as HTMLElement).style.color = "#121113")}
                 >
-                  Github
+                  <a href="https://github.com/IhorMuliar/prescient" target="_blank">Github</a>
                 </li>
                 <li
                   className="hover:underline cursor-pointer transition-colors"
@@ -90,7 +90,7 @@ export function StickyFooter() {
                   onMouseEnter={(e) => ((e.target as HTMLElement).style.color = "rgba(18, 17, 19, 0.8)")}
                   onMouseLeave={(e) => ((e.target as HTMLElement).style.color = "#121113")}
                 >
-                  Twitter
+                  <a href="https://x.com/prescient_ai" target="_blank">Twitter</a>
                 </li>
                 <li
                   className="hover:underline cursor-pointer transition-colors"

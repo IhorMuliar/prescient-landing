@@ -15,8 +15,7 @@ const pricingPlans = [
   },
   {
     name: "Seed",
-    monthlyPrice: 29,
-    annualPrice: 24,
+    price: "$10K-100K",
     description: "Market-validated agents ready for mainnet",
     features: [
       "Futarchy market listing",
@@ -31,8 +30,7 @@ const pricingPlans = [
   },
   {
     name: "Scale",
-    monthlyPrice: 99,
-    annualPrice: 79,
+    price: "$100K+",
     description: "Institutional-grade autonomous agents",
     features: [
       "Everything in Seed",
@@ -95,16 +93,7 @@ export function PricingSection() {
               <div className="text-center mb-8">
                 <h3 className="text-xl font-bold text-white mb-2">{plan.name}</h3>
                 <div className="flex items-baseline justify-center gap-1 mb-2">
-                  {plan.price ? (
-                    <span className="text-4xl font-bold text-white">{plan.price}</span>
-                  ) : (
-                    <>
-                      <span className="text-4xl font-bold text-white">
-                        ${plan.annualPrice}
-                      </span>
-                      <span className="text-white/60 text-lg">/year</span>
-                    </>
-                  )}
+                  <span className="text-4xl font-bold text-white">{plan.price}</span>
                 </div>
                 <p className="text-white/60 text-sm">{plan.description}</p>
               </div>
