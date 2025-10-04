@@ -4,55 +4,55 @@ const testimonials = [
   {
     name: "Arjun Mehta",
     username: "@arjdev",
-    body: "v0 has completely changed the way I build UIs. Generate, copy-paste, done. No more design stress.",
+    body: "Futarchy markets predicted my agent would succeed. Raised $50K in 3 days. Way better than begging VCs.",
     img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Sara Lin",
     username: "@sara.codes",
-    body: "Honestly shocked at how smooth the v0 generated components are out of the box. Just works perfectly.",
+    body: "My trading bot proved itself on testnet, markets voted 82% PASS. Instant mainnet funding. This is the future.",
     img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Devon Carter",
     username: "@devninja",
-    body: "Our team launched a client site in 2 days using v0 components. Saved so much development time.",
+    body: "Launched an NFT sniper agent. Markets said no. Saved me months of wasted effort. Brutal but fair.",
     img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Priya Shah",
     username: "@priyacodes",
-    body: "Generated a few components in v0 and everything blended perfectly with our codebase. Massive W.",
+    body: "Built a yield optimizer on ElizaOS. Prescient's futarchy model gave us $75K funding in under a week.",
     img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Leo Martin",
     username: "@leobuilds",
-    body: "Found a beautiful hero section in v0, tweaked the prompt, and shipped in 15 minutes. Game changer.",
+    body: "PASS market hit 91% for my arbitrage bot. Squads wallet integration was seamless. Already profitable.",
     img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Chloe Winters",
     username: "@chloewinters",
-    body: "v0 helped us prototype multiple landing pages without writing CSS once. Pure magic.",
+    body: "No more pitch decks. Just deployed my agent, let markets decide. Most honest funding process ever.",
     img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Ayaan Malik",
     username: "@ayaan_dev",
-    body: "As a solo founder, v0 lets me move fast without sacrificing design quality. Essential tool.",
+    body: "My DeFi agent got funded based on testnet performance, not Twitter followers. Finally, meritocracy.",
     img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Monica Reeves",
     username: "@monicareeves",
-    body: "Can't believe how polished the v0 generated components look. Clients are impressed every time.",
+    body: "Markets predicted 67% success rate. Got $30K to scale. Way more transparent than traditional funding.",
     img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "James Roy",
     username: "@jamesrdev",
-    body: "v0 is a lifesaver when deadlines are tight. Generate a component, tweak, and deploy instantly.",
+    body: "Built an AI agent in 2 days, markets validated in 3. From idea to funded in under a week. Insane.",
     img: "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=150&h=150&fit=crop&crop=face",
   },
 ]
@@ -95,11 +95,11 @@ export function TestimonialsSection() {
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto max-w-[540px]">
           <h2 className="from-foreground/60 via-foreground to-foreground/60 dark:from-muted-foreground/55 dark:via-foreground dark:to-muted-foreground/55 mt-5 bg-gradient-to-r bg-clip-text text-center text-4xl font-semibold tracking-tighter text-transparent md:text-[54px] md:leading-[60px] __className_bb4e88 relative z-10">
-            What our users say
+            What users say about futarchy markets
           </h2>
 
           <p className="mt-5 relative z-10 text-center text-lg text-zinc-500">
-            From intuitive design to powerful features, our app has become an essential tool for users around the world.
+            Real agents funded by real markets. No committees, no politics, just prediction accuracy.
           </p>
         </div>
 
