@@ -117,7 +117,7 @@ export default function Home() {
               }
             }}
           >
-            <span className="relative z-20">Pricing</span>
+            <span className="relative z-20">Funding Tiers</span>
           </a>
           <a
             className="relative px-4 py-2 text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
@@ -161,17 +161,10 @@ export default function Home() {
 
         <div className="flex items-center gap-4">
           <a
-            href="/login"
-            className="font-medium transition-colors hover:text-foreground text-muted-foreground text-sm cursor-pointer"
-          >
-            Log In
-          </a>
-
-          <a
-            href="/signup"
+            href="/"
             className="rounded-md font-bold relative cursor-pointer hover:-translate-y-0.5 transition duration-200 inline-block text-center bg-gradient-to-b from-primary to-primary/80 text-primary-foreground shadow-[0px_2px_0px_0px_rgba(255,255,255,0.3)_inset] px-4 py-2 text-sm"
           >
-            Sign Up
+            Launch App
           </a>
         </div>
       </header>
@@ -224,7 +217,7 @@ export default function Home() {
                 onClick={() => handleMobileNavClick("pricing")}
                 className="text-left px-4 py-3 text-lg font-medium text-muted-foreground hover:text-foreground transition-colors rounded-lg hover:bg-background/50"
               >
-                Pricing
+                Funding Tiers
               </button>
               <button
                 onClick={() => handleMobileNavClick("testimonials")}
@@ -240,16 +233,10 @@ export default function Home() {
               </button>
               <div className="border-t border-border/50 pt-4 mt-4 flex flex-col space-y-3">
                 <a
-                  href="/login"
-                  className="px-4 py-3 text-lg font-medium text-muted-foreground hover:text-foreground transition-colors rounded-lg hover:bg-background/50 cursor-pointer"
-                >
-                  Log In
-                </a>
-                <a
-                  href="/signup"
+                  href="/"
                   className="px-4 py-3 text-lg font-bold text-center bg-gradient-to-b from-primary to-primary/80 text-primary-foreground rounded-lg shadow-lg hover:-translate-y-0.5 transition-all duration-200"
                 >
-                  Sign Up
+                  Launch App
                 </a>
               </div>
             </nav>
