@@ -99,7 +99,7 @@ export default function Features() {
                     {/* Background Image */}
                     <div className="absolute inset-0">
                       <img
-                        src="https://framerusercontent.com/images/UjqUIiBHmIcSH9vos9HlG2BF4bo.png"
+                        src="/banner.png"
                         alt="Arrow-CoreExchange"
                         className="w-full h-full object-cover rounded-xl"
                       />
