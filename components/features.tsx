@@ -161,7 +161,11 @@ export default function Features() {
                       <div className="flex items-center gap-8">
                         {/* Left Column */}
                         <div className="flex flex-col gap-3">
-                          {["Feature-1", "Feature-1", "Feature-1"].map((item, index) => (
+                          {[
+                            { label: "Trading Agent", icon: "📊" },
+                            { label: "DeFi Agent", icon: "💰" },
+                            { label: "Analytics Agent", icon: "📈" }
+                          ].map((item, index) => (
                             <motion.div
                               key={`left-${index}`}
                               className="bg-white rounded px-3 py-2 flex items-center gap-2 text-black text-sm font-medium shadow-sm"
@@ -173,12 +177,7 @@ export default function Features() {
                               }}
                               whileHover={{ scale: 1.05 }}
                             >
-                              <div className="w-4 h-4 flex items-center justify-center">
-                                {index === 0 && <span className="text-xs">📄</span>}
-                                {index === 1 && <span className="text-xs">💰</span>}
-                                {index === 2 && <span className="text-xs">🏢</span>}
-                              </div>
-                              {item}
+                              {item.label}
                             </motion.div>
                           ))}
                         </div>
@@ -192,7 +191,7 @@ export default function Features() {
                           whileHover={{ scale: 1.1, rotate: 5 }}
                         >
                           <img
-                            src="https://framerusercontent.com/images/q43ivjLz67lXhWf6TKfLIh0FY.png"
+                            src="/prescient.svg"
                             alt="Logo"
                             className="w-full h-full object-cover"
                           />
@@ -200,7 +199,11 @@ export default function Features() {
 
                         {/* Right Column */}
                         <div className="flex flex-col gap-3">
-                          {["Feature-1", "Feature-1", "Feature-1"].map((item, index) => (
+                          {[
+                            { label: "Funded", icon: "✅" },
+                            { label: "Market Active", icon: "📊" },
+                            { label: "Vesting", icon: "🔒" }
+                          ].map((item, index) => (
                             <motion.div
                               key={`right-${index}`}
                               className="bg-white rounded px-3 py-2 flex items-center gap-2 text-black text-sm font-medium shadow-sm"
@@ -212,12 +215,7 @@ export default function Features() {
                               }}
                               whileHover={{ scale: 1.05 }}
                             >
-                              <div className="w-4 h-4 flex items-center justify-center">
-                                {index === 0 && <span className="text-xs">👥</span>}
-                                {index === 1 && <span className="text-xs">💳</span>}
-                                {index === 2 && <span className="text-xs">👨‍⚕️</span>}
-                              </div>
-                              {item}
+                              {item.label}
                             </motion.div>
                           ))}
                         </div>
